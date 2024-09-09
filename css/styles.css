@@ -61,6 +61,11 @@
   font-size: x-large !important;
 }
 
+@media (min-width: 768px) {
+  .card-body {
+    height: 110px;
+  }
+}
 @media (max-width: 767px) {
   .header .social i {
     font-size: 30px;
@@ -70,6 +75,13 @@
   }
   .about-content {
     flex-direction: column;
+  }
+  .services i {
+    margin-top: 1rem;
+  }
+  .styleshout .col-12 {
+    display: grid;
+    justify-content: center;
   }
   .stats .stat {
     border-right: 0 !important;
