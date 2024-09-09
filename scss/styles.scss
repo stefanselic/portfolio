@@ -90,9 +90,8 @@
   }
 
   .header {
-    background-image: url('../images/intro-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: auto;
+    max-width: 100%;
   }
 
   .stats .stat {
