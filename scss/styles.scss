@@ -89,6 +89,12 @@
     justify-content: center;
   }
 
+  .header {
+    background: #151515 url('../images/intro-bg.jpg') no-repeat center center;
+    background-size: contain;
+    background-attachment: fixed;
+  }
+
   .stats .stat {
     border-right: 0 !important;
     margin-bottom: 40px;
